@@ -6,7 +6,8 @@ export const sections = [
     subtitle: <Badge variant="outline" className="text-white border-white">🎮 Аккаунты в наличии</Badge>,
     title: "Прокачанные аккаунты. Без гринда.",
     showButton: true,
-    buttonText: 'Смотреть каталог'
+    buttonText: 'Смотреть каталог',
+    image: 'https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/files/c62832c5-88f2-415d-95ee-43ca2a7e3461.jpg'
   },
   {
     id: 'about',

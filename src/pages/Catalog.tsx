@@ -81,12 +81,18 @@ export default function Catalog() {
                   </div>
                   <div className="mt-auto flex items-center justify-between">
                     <span className="text-2xl font-bold text-white">{acc.price}</span>
-                    <Button
-                      size="sm"
-                      className="bg-[#FF4D00] hover:bg-[#e04400] text-white border-0"
+                    <a
+                      href={`https://t.me/barsik_pedalka?text=Хочу купить аккаунт ${game.name} — ${acc.label} (${acc.price})`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      Купить
-                    </Button>
+                      <Button
+                        size="sm"
+                        className="bg-[#FF4D00] hover:bg-[#e04400] text-white border-0"
+                      >
+                        Купить
+                      </Button>
+                    </a>
                   </div>
                 </motion.div>
               ))}

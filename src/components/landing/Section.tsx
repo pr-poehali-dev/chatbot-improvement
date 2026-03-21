@@ -54,15 +54,27 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
             className="mt-12 md:mt-16"
           >
             {buttonLink ? (
-              <Link to={buttonLink}>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="text-[#FF4D00] bg-transparent border-[#FF4D00] hover:bg-[#FF4D00] hover:text-black transition-colors"
-                >
-                  {buttonText}
-                </Button>
-              </Link>
+              buttonLink.startsWith('http') ? (
+                <a href={buttonLink} target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="text-[#FF4D00] bg-transparent border-[#FF4D00] hover:bg-[#FF4D00] hover:text-black transition-colors"
+                  >
+                    {buttonText}
+                  </Button>
+                </a>
+              ) : (
+                <Link to={buttonLink}>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="text-[#FF4D00] bg-transparent border-[#FF4D00] hover:bg-[#FF4D00] hover:text-black transition-colors"
+                  >
+                    {buttonText}
+                  </Button>
+                </Link>
+              )
             ) : (
               <Button
                 variant="outline"

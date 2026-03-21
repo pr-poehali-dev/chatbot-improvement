@@ -30,6 +30,7 @@ export const sections = [
     title: 'Найди свой аккаунт.',
     content: 'Brawl Stars, Rust, Clash Royale и другие. Выбери нужную игру и получи аккаунт уже сегодня.',
     showButton: true,
-    buttonText: 'Написать нам'
+    buttonText: 'Написать нам',
+    buttonLink: 'https://t.me/barsik_pedalka'
   },
 ]

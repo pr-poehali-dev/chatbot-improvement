@@ -21,7 +21,7 @@ const games = [
     image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/files/9c1c91ea-3eaf-4659-9574-609fcfbe1d9c.jpg",
     color: "from-orange-700/80 to-red-900/80",
     accounts: [
-      { label: "Базовый", desc: "Чистый аккаунт, без банов", price: "699 ₽" },
+      { label: "Базовый", desc: "Чистый аккаунт, без банов", price: "799 ₽" },
       { label: "С скинами", desc: "Редкие скины, 500+ часов", price: "2 490 ₽" },
       { label: "Прокачан", desc: "Топовые скины, 2000+ часов", price: "5 990 ₽" },
     ],

@@ -1,8 +1,9 @@
 import { motion } from "framer-motion"
+import { Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import type { SectionProps } from "@/types"
 
-export default function Section({ id, title, subtitle, content, isActive, showButton, buttonText, image }: SectionProps) {
+export default function Section({ id, title, subtitle, content, isActive, showButton, buttonText, buttonLink, image }: SectionProps) {
   return (
     <section id={id} className="relative h-screen w-full snap-start flex flex-col justify-center p-8 md:p-16 lg:p-24">
       {image && (
@@ -52,13 +53,25 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mt-12 md:mt-16"
           >
-            <Button
-              variant="outline"
-              size="lg"
-              className="text-[#FF4D00] bg-transparent border-[#FF4D00] hover:bg-[#FF4D00] hover:text-black transition-colors"
-            >
-              {buttonText}
-            </Button>
+            {buttonLink ? (
+              <Link to={buttonLink}>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="text-[#FF4D00] bg-transparent border-[#FF4D00] hover:bg-[#FF4D00] hover:text-black transition-colors"
+                >
+                  {buttonText}
+                </Button>
+              </Link>
+            ) : (
+              <Button
+                variant="outline"
+                size="lg"
+                className="text-[#FF4D00] bg-transparent border-[#FF4D00] hover:bg-[#FF4D00] hover:text-black transition-colors"
+              >
+                {buttonText}
+              </Button>
+            )}
           </motion.div>
         )}
       </div>

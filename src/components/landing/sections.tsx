@@ -4,7 +4,7 @@ export const sections = [
   {
     id: 'hero',
     subtitle: <Badge variant="outline" className="text-white border-white">🎮 Аккаунты в наличии</Badge>,
-    title: "Прокачанные аккаунты. Без гринда.",
+    title: "Продажа проверенных аккаунтов: быстро, надёжно, выгодно.",
     showButton: true,
     buttonText: 'Смотреть каталог',
     buttonLink: '/catalog',

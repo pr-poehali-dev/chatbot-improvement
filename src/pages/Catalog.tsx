@@ -7,7 +7,7 @@ const games = [
   {
     id: "brawl-stars",
     name: "Brawl Stars",
-    image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/files/05affde3-b12b-47c1-b322-3747a71dc25b.jpg",
+    image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/files/15a83785-eef0-4b80-898c-052b2fd7c4cf.jpg",
     color: "from-purple-600/80 to-yellow-500/80",
     accounts: [
       { label: "Старт", desc: "5000+ кубков, 15+ бравлеров", price: "329 ₽" },

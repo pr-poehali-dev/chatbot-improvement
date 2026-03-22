@@ -32,7 +32,7 @@ const games = [
     image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/files/4e802231-ed54-4133-b4e1-5e3484a89878.jpg",
     color: "from-blue-600/80 to-yellow-400/80",
     accounts: [
-      { label: "Арена 6+", desc: "Прокачанная колода, лига", price: "399 ₽" },
+      { label: "Арена 6+", desc: "Прокачанная колода, лига", price: "199 ₽" },
       { label: "Мастер", desc: "Мастерская лига, редкие карты", price: "1 290 ₽" },
       { label: "Чемпион", desc: "Чемпионская лига, макс. карты", price: "3 490 ₽" },
     ],

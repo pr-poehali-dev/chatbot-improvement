@@ -8,6 +8,8 @@ export interface Section {
   showButton?: boolean
   buttonText?: string
   buttonLink?: string
+  secondButtonText?: string
+  secondButtonLink?: string
   image?: string
 }
 

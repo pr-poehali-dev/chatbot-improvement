@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import type { SectionProps } from "@/types"
 
-export default function Section({ id, title, subtitle, content, isActive, showButton, buttonText, buttonLink, image }: SectionProps) {
+export default function Section({ id, title, subtitle, content, isActive, showButton, buttonText, buttonLink, secondButtonText, secondButtonLink, image }: SectionProps) {
   return (
     <section id={id} className="relative h-screen w-full snap-start flex flex-col justify-center p-8 md:p-16 lg:p-24">
       {image && (
@@ -51,7 +51,7 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
             initial={{ opacity: 0, y: 20 }}
             animate={isActive ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="mt-12 md:mt-16"
+            className="mt-12 md:mt-16 flex flex-wrap gap-4"
           >
             {buttonLink ? (
               buttonLink.startsWith('http') ? (
@@ -83,6 +83,17 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
               >
                 {buttonText}
               </Button>
+            )}
+            {secondButtonText && secondButtonLink && (
+              <a href={secondButtonLink} target="_blank" rel="noopener noreferrer">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="text-white bg-transparent border-white hover:bg-white hover:text-black transition-colors"
+                >
+                  {secondButtonText}
+                </Button>
+              </a>
             )}
           </motion.div>
         )}

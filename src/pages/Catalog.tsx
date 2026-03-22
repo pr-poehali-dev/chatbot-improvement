@@ -101,7 +101,8 @@ export default function Catalog() {
         ))}
 
         <div className="text-center py-8 text-neutral-500 text-sm">
-          Не нашли нужный аккаунт? — напишите нам, подберём под ваш запрос.
+          Не нашли нужный аккаунт? — напишите нам, подберём под ваш запрос.{" "}
+          <a href="https://t.me/barsik_pedalka" target="_blank" rel="noopener noreferrer" className="text-[#FF4D00] hover:underline">@barsik_pedalka</a>
         </div>
       </div>
     </div>

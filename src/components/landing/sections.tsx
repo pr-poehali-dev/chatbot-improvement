@@ -16,7 +16,7 @@ export const sections = [
     id: 'about',
     title: 'Почему покупают у нас?',
     content: 'Продаём игровые аккаунты Brawl Stars, Rust, Clash Royale и других игр. Быстрая передача, честные цены, гарантия на каждый аккаунт.',
-    image: 'https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/files/c85f27a8-d23b-48a9-a4c5-902a4f75d7d0.jpg'
+    image: 'https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/bucket/65a3eaa9-b6b0-4bf0-ac3b-1cb19ae3cb2e.png'
   },
   {
     id: 'features',

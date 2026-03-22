@@ -10,7 +10,7 @@ export const sections = [
     buttonLink: '/catalog',
     secondButtonText: 'Отзывы',
     secondButtonLink: 'https://t.me/+_7o6vw9bNJE3NjRi',
-    image: 'https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/files/c62832c5-88f2-415d-95ee-43ca2a7e3461.jpg'
+    image: 'https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/bucket/57f1ea3b-8684-45ff-9939-ca4ce5b37199.jpeg'
   },
   {
     id: 'about',

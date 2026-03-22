@@ -40,7 +40,7 @@ const games = [
   {
     id: "gta5",
     name: "GTA 5",
-    image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/bucket/57f1ea3b-8684-45ff-9939-ca4ce5b37199.jpeg",
+    image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/bucket/404625f4-34f3-47af-8c17-8dd005bcc465.jpg",
     color: "from-green-700/80 to-gray-900/80",
     accounts: [
       { label: "Старт", desc: "Чистый аккаунт, GTA", price: "699 ₽" },

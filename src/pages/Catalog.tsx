@@ -10,7 +10,7 @@ const games = [
     image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/bucket/7622f493-7fe9-4363-bb9e-002bb8b501a2.jpg",
     color: "from-purple-600/80 to-yellow-500/80",
     accounts: [
-      { label: "Старт", desc: "1500+ кубков, 15+ бравлеров", price: "329 ₽" },
+      { label: "Старт", desc: "1500+ кубков, 15+ бравлеров", price: "199 ₽" },
       { label: "Про", desc: "20 000+ кубков, 30+ бравлеров", price: "599 ₽" },
       { label: "Макс", desc: "50 000+ кубков, все бравлеры", price: "1 999 ₽" },
     ],

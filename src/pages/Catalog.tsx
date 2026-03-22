@@ -29,7 +29,7 @@ const games = [
   {
     id: "clash-royale",
     name: "Clash Royale",
-    image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/files/4e802231-ed54-4133-b4e1-5e3484a89878.jpg",
+    image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/bucket/8f542013-f65e-46f0-a90f-ce7e690bd8e8.png",
     color: "from-blue-600/80 to-yellow-400/80",
     accounts: [
       { label: "Арена 6+", desc: "Прокачанная колода, лига", price: "199 ₽" },

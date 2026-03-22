@@ -18,7 +18,7 @@ const games = [
   {
     id: "rust",
     name: "Rust",
-    image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/files/9c1c91ea-3eaf-4659-9574-609fcfbe1d9c.jpg",
+    image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/bucket/5796cd91-30df-4f61-a4c7-58c93f5321f5.png",
     color: "from-orange-700/80 to-red-900/80",
     accounts: [
       { label: "Базовый", desc: "Чистый аккаунт, без банов", price: "799 ₽" },

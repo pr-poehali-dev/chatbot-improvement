@@ -37,6 +37,17 @@ const games = [
       { label: "Чемпион", desc: "Чемпионская лига, макс. карты", price: "3 490 ₽" },
     ],
   },
+  {
+    id: "gta5",
+    name: "GTA 5",
+    image: "https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/bucket/57f1ea3b-8684-45ff-9939-ca4ce5b37199.jpeg",
+    color: "from-green-700/80 to-gray-900/80",
+    accounts: [
+      { label: "Старт", desc: "Чистый аккаунт, GTA Online", price: "299 ₽" },
+      { label: "Богатый", desc: "100 млн $, прокачанный персонаж", price: "799 ₽" },
+      { label: "Топ", desc: "Максимальный уровень, все разблокировано", price: "1 499 ₽" },
+    ],
+  },
 ]
 
 export default function Catalog() {

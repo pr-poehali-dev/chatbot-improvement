@@ -36,6 +36,7 @@ export const sections = [
     content: 'Brawl Stars, Rust, Clash Royale и другие. Выбери нужную игру и получи аккаунт уже сегодня.',
     showButton: true,
     buttonText: 'Написать нам',
-    buttonLink: 'https://t.me/barsik_pedalka'
+    buttonLink: 'https://t.me/barsik_pedalka',
+    image: 'https://cdn.poehali.dev/projects/d9df9b4c-e54f-4219-a267-85a718fea7db/bucket/167d6e8a-67cb-46be-ba9c-9c09beab378b.jpg'
   },
 ]
